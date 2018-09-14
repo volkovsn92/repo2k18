@@ -11,13 +11,13 @@ namespace NUnitTesting_1._0
         [OneTimeSetUp]
         public void InitMethod()
         {
-            initString = "ClassBegin";
+            initString = "_ClassBegin";
         }
 
         [OneTimeTearDown]
         public void TearDwnMethod()
         {
-            initString = "ClassEnd";
+            initString = "_ClassEnd";
         }
 
         public virtual void Method1() { }
